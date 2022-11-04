@@ -1,0 +1,95 @@
+*{
+	box-sizing: border-box;
+	font-size: 20px;
+	color: white;
+}
+
+.header{
+	background-color: #923158;
+	height: 80px;
+	width: 100%;
+	margin-bottom: 5px;
+}
+
+.footer{
+	background-color: #923158;
+	height: 40px;
+	width: 100%;
+	
+}
+
+.menu{
+	height: 40px;
+	width: 100%;
+	background-color: #6E1237;
+}
+
+.main_content, .aside1, .aside2, .right_side{
+	background-color: #B65B80;
+}
+
+.section1, .section2{
+	background-color: #DB92AF;
+}
+
+.box{
+	height: 505px;
+	width: 100%;
+	margin-bottom: 5px;
+}
+
+.left_side{
+	height: 500px;
+	width: 30%;
+	float: left;
+	margin: 5px 5px 5px 0;
+
+}
+
+.main_content{
+	height: 500px;
+	width: calc(50% - 10px);
+	float: left;
+	margin: 5px 0 5px 0;
+}
+
+.right_side{
+	height: 400px;
+	width: 20%;
+	float: left;
+	margin: 5px 0 5px 5px;
+
+}
+
+.aside1, .aside2{
+	background-color: #B65B80;
+}
+.aside1{
+	height: 150px;
+	margin-bottom: 5px;
+}
+
+.aside2{
+	height: 200px;
+}
+
+.section1{
+	height: 100px;
+	width: calc(100% - 100px);
+	margin: 130px 50px 10px 50px;
+}
+
+.section2{
+	height: 100px;
+	width: calc(100% - 100px);
+	margin: 0 50px 5px 50px;
+}
+
+span{
+	display: inline-block;
+	position: relative;
+	left: 20px;
+	line-height: 1.6;
+	white-space: nowrap;
+    overflow: hidden;
+}

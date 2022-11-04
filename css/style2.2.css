@@ -1,0 +1,24 @@
+/*.roman{
+	list-style-type: upper-roman;
+}*/
+.alpha{
+	list-style-type: lower-alpha;
+}
+
+.roman{
+	list-style-type: upper-roman;
+    font-weight:bold;
+}
+
+/*стилизация через span*/
+span{
+    font-weight:normal;
+}
+
+/*стилизация вложенного li в li*/
+li li::marker{
+	font-weight:bold;
+}
+ol>li::marker{
+	font-weight: bold;
+}

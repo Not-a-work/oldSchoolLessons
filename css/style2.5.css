@@ -1,0 +1,59 @@
+
+
+li:nth-child(1),
+li:nth-child(3),
+li:nth-child(4),
+li:nth-child(6),
+li:nth-child(7),
+li:nth-child(8),
+li:nth-child(9),
+li:nth-child(10),
+li:nth-child(12){
+	list-style-type: none;
+	background: url(../img/unchecked_16.png) no-repeat 20px;
+}
+
+li:nth-child(2),
+li:nth-child(5),
+li:nth-child(11){
+	background-color: #E2E2E2 !important; 
+	list-style-type: none;
+	background: url(../img/checked_16.png) no-repeat 20px;
+}
+
+
+li:nth-child(2n+1){
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 60px;
+	list-style-position: inside;
+	background-color: #A5CCDA;
+}
+li:nth-child(2n){
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 60px;
+	list-style-position: inside;
+	background-color: #ADD8E6;
+}
+span{
+	padding-left: 30px;
+	color: red;
+}
+h1{
+	padding-left: 40px;
+}
+.main{
+	background-color: #F5F5F5;
+	width: 45%;
+	height: 500px;
+}
+
+ul{
+	width: 90%;
+	margin: 0 auto;
+	padding-left: 0;
+}
+
+
+

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		h1{
+			text-align: left;
+		}
+		h2{
+			text-align: center;
+			color: blue;
+		}
+		p{
+			text-align: justify;
+		}
+		.head p{
+			text-align: center;
+		}
+		.container{
+			text-indent: 40px;
+			margin-top: 0px;
+		}
+		.align{
+
+			text-align: center;
+					}
+		.main{
+			margin: 80px;
+		}
+		
+	</style>
+</head>
+<body>
+	<div class="main">
+	<h1>УДК 519.6: 621.316</h1>
+		<div class="head"><h2>МОДИФИКАЦИИ МЕТОДА ТЕЙЛА-СЕНА ДЛЯ СЛУЧАЯ
+				МНОЖЕСТВЕННОЙ И НЕЛИНЕЙНОЙ РЕГРЕССИИ</h2>
+				<p><b>Некрасов Сергей Александрович,</b></p>
+
+				<p>д.т.н. профессор Южно-Российский государственный политехнический университет</p>
+
+				<p><b>Шестопал О.В.,</b></p>
+
+				<p>аспирант кафедры прикладной математики Южно-Российского<br>
+				государственного политехнического университета имени М.В.Платова</p>
+		</div>
+				<p><b>Аннотация:</b> Описаны новые эффективные модификации метода Тейла - Сена для получения робастных<br>
+				оценок в случае нелинейной регрессии. Приводятся примеры, подтверждающие высокие<br>
+				вычислительные качества предложенных методов. <br>
+				<b>Abstract:</b> New effective modifications of the method Theil-Sen method for obtaining robust estimates in the <br>
+				case of nonlinear regression are described. Examples are given to confirm the high computational quality of <br>
+				the proposed methods. <br>
+				<b>Ключевые слова:</b> <i><u>статистика; оценки; регрессия; робастность</i></u><br>
+				<b>Keywords:</b> <i><u>statistics; robust estimators; regression
+				Введение</u></i><br>
+		<div class="container">Неизвестную нам связь между выходной величиной Y и факторами Xlобозначим в виде Y=f(X<sub>l</sub>, ...,<br>
+			X<sub>n</sub>), где n – объем выборки X<sub>l</sub>, ..., X<sub>n.</sub> <br>
+			Робастная множественная регрессия<br>
+		</div>
+		<div class="container">Обзор методов построения робастной регрессии можно найти в [1-6]. В значительной степени эти<br>
+				подходы используют функции <b>Хубера,</b> основанные на оценке медианы абсолютного отклонения [1-4]. <br>
+			</div>
+		<div class="container">Одним из зарекомендовавших себя робастных методов статистики является <b>метод Тейла-Сена. </b>
+				Как правило, его применяют для построения одномерной линейной регрессии. В литературе сообщается <br>
+				о нескольких вариантах его обобщения на случай многомерной линейной регрессии. Наиболее <br>
+				зарекомендовал себя медианный метод на основе <b>метода Гаусса-Зейделя.</b><br>
+			</div> 
+		<div class="container">Сформулируем его в следующем виде. Предположим, что требуется построить робастную<br>
+				многомерную линейную регрессию в<br>
+			</div>
+		<div class ="align"R<sup>n</sup>: y=a<sub>0</sub> +a<sub>1</sub>x<sub>1</sub>+...+a<sub>n</sub>x<sub>n</sub> <br>
+			</div>
+
+		<div class="container">Для отыскания ее коэффициентов применим медианный метод на основе процедуры Гаусса-Зейделя <br>
+				с выделением диагональных элементов:<br>
+			</div>
+
+		<div class="align">a<sub>k</sub><sup>(s+1)</sup>= Me{[y<sub>i</sub> – y<sub>j</sub> – a<sub>1</sub><sup>(s+1)</sup>(x<sub>1,i</sub> 		– x<sub>1,j</sub>) –...– a<sub>k–1</sub><sup>(s+1)</sup>(x<sub>k–1,i</sub> – x <sub>k–1,j</sub>) – <br>
+
+				a<sub>k+1</sub><sup>(s)</sup>(x<sub>k+1,i</sub> – x<sub>k+1,j</sub>)–...– a<sub>n</sub><sup>(s)</sup>(x<sub>n,i</sub> – x<sub>		n,j</sub>)]/ (x<sub>k,i</sub> – x<sub>k,j</sub>)}, k=1,...,n; <br>
+
+				a<sub>0</sub><sup>(s+1)</sup>= Me(y<sub>i</sub> – a<sub>1</sub>
+
+				<sup>(s+1)</sup>x<sub>1,i</sub> –...– a<sub>n</sub>
+				<sup>(s+1)</sup>x<sub>n,i</sub>);<br>
+			</div>
+
+		<div class="container">где Me – статистическая оценка медианы по парам точек выборки i,j=1,...,n(i не равно j); s– номер
+				итерации по методу Зейделя.</div></p>
+			</div>
+	</body>
+</html>

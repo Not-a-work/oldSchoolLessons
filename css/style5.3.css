@@ -1,0 +1,132 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.area{
+	width: 428px;
+	height: auto;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+.conteiner-1{
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.pers-1{
+	background: url(../img/avatar_2.png) no-repeat;
+	height: 64px;
+	width: 64px;
+}
+.message-1{
+	background-color: #FFB6C1;
+	width: 300px;
+	height: 50px;
+	border-radius: 15px 15px 15px 0;
+	position: relative;
+}
+
+.conteiner-2{
+	display: flex;
+	flex-wrap: nowrap;
+	margin-left: 64px;
+}
+
+.pers-2{
+	background: url(../img/avatar_1.png) no-repeat;
+	height: 64px;
+	width: 64px;
+}
+.message-2{
+	background-color: #AED8E6;
+	width: 300px;
+	height: 50px;
+	border-radius: 15px 15px 0 15px;
+}
+.conteiner-3{
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.pers-3{
+	background: url(../img/avatar_2.png) no-repeat;
+	height: 64px;
+	width: 64px;
+}
+.message-3{
+	background-color: #FFB6C1;
+	width: 300px;
+	height: 50px;
+	border-radius: 15px 15px 15px 0;
+}
+
+.conteiner-4{
+	display: flex;
+	flex-wrap: nowrap;
+	margin-left: 64px;
+}
+
+.pers-4{
+	background: url(../img/avatar_1.png) no-repeat;
+	height: 64px;
+	width: 64px;
+}
+.message-4{
+	background-color: #AED8E6;
+	width: 300px;
+	height: 50px;
+	border-radius: 15px 15px 0 15px;
+}
+.conteiner-5{
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.pers-5{
+	background: url(../img/avatar_2.png) no-repeat;
+	height: 64px;
+	width: 64px;
+}
+.message-5{
+	background-color: #FFB6C1;
+	width: 300px;
+	height: 50px;
+	border-radius: 15px 15px 15px 0;
+}
+
+.conteiner-6{
+	display: flex;
+	flex-wrap: nowrap;
+	margin-left: 64px;
+}
+
+.pers-6{
+	background: url(../img/avatar_1.png) no-repeat;
+	height: 64px;
+	width: 64px;
+}
+.message-6{
+	background-color: #AED8E6;
+	width: 300px;
+	height: 50px;
+	border-radius: 15px 15px 0 15px;
+}
+
+span{
+	display: inline-block;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.conteiner-1 .pers-1 span{
+	display: inline-block;
+	position: relative;
+	margin-left: -100px;
+	top: 20px;
+}

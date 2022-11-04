@@ -1,0 +1,35 @@
+table{
+	height: 400px;
+	width: 400px;
+	border: 1px solid #000;
+	border-collapse: collapse;
+	color: white;
+	text-align: center;
+	font-size: 22px;
+	font-family: Georgia;
+}
+td{
+	border: 1px solid #000;
+}
+.head,.footer{
+	height: 20%;
+}
+.content {
+	height: 50%;
+}
+.head td{
+	background: #FF4948;
+}
+tr:nth-child(2){
+	background: #C81415;
+}
+.content td:nth-child(1){
+	width: 70%;
+	background: #71B31B;
+}
+.content td:nth-child(2){
+	background: #99D26B;
+}
+.footer td{
+	background: #7B68FF;
+}

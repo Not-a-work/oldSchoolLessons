@@ -1,0 +1,56 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul{
+	margin-top: 20px;
+	list-style: none;
+	margin-left: 200px;
+	background-color: #808080;
+	width: 300px;
+}
+
+
+ul li{
+	list-style-position: inside;
+}
+
+li:nth-child(1):before{
+	content: url(../img/edit.png);
+	position: relative;
+    left: 15px;
+}
+
+
+li:nth-child(2):before{
+	content: url(../img/favorites.png);
+	position: relative;
+    left: 15px;
+
+}
+li:nth-child(3):before{
+	content: url(../img/history.png);
+	position: relative;
+    left: 15px;
+}
+li:nth-child(4):before{
+	content: url(../img/security.png);
+	position: relative;
+    left: 15px;
+}
+li:nth-child(5):before{
+	content: url(../img/settings.png);
+	position: relative;
+    left: 15px;
+}
+span{
+	display: inline-block;
+	position: relative;
+	bottom: 45px;
+	left: 30px;
+	color: #fff;
+}
+
+li:hover{
+	background-color: #5E5E5E;
+}

@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+    font-size: 1.1em;
+    color: white;
+}
+ul{
+    list-style: none;
+}
+
+.footer{
+    width: 100%;
+    height: 300px;
+    background-color: #2A4E70;
+}
+
+.left{
+    width: calc(100% / 3);
+    float: left;
+    padding: 30px 0 0 60px;
+}
+
+.middle{
+    width: calc(100% / 3);
+    float: left;
+    padding: 30px 0 0 60px;
+}
+
+.right{
+    width: calc(100% / 3);
+    float: left;
+    padding-top: 60px;
+
+}
+.right ul li{
+    display: inline-block;
+ }
+ .right ul li:nth-child(1){
+    padding-right: 40px;
+ }
+ .right ul li:nth-child(2){
+    padding-right: 40px;
+ }
+
+
+ .hr{
+    padding-top: 220px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    box-shadow: 0 20px 20px -20px #333;
+    width: 95%;
+    margin: 0 auto;
+ }
+
+a.fb{
+    background: url(../img/fb_gray.png);
+    display: block;
+    width: 64px;
+    height: 64px;
+}
+a.fb:hover{
+    background: url(../img/fb.png);
+}
+a.ins{
+    background: url(../img/insta_gray.png);
+    display: block;
+    width: 64px;
+    height: 64px;
+}
+a.ins:hover{
+    background: url(../img/insta.png);
+}
+a.you{
+    background: url(../img/youtube_gray.png);
+    display: block;
+    width: 64px;
+    height: 64px;
+}
+a.you:hover{
+    background: url(../img/youtube.png);
+}
+
+a.news{
+    text-decoration: none;
+}
+a.news:hover{
+    text-decoration: underline;
+}

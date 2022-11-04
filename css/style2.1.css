@@ -1,0 +1,25 @@
+.winter{
+	list-style-image: url(../img/arrow_16.png);
+}
+.spring{
+	list-style-image: url(../img/arrow_16.png);
+}
+.summer{
+	list-style-image: url(../img/arrow_16.png);
+}
+.autumn{
+	list-style-image: url(../img/arrow_16.png);
+}
+.winter_mark{
+	list-style: url(../img/winter_16.png);
+}
+.spring_mark{
+	list-style: url(../img/spring_16.png)
+}
+.sunner_mark{
+	list-style: url(../img/summer_16.png);
+}
+.autumn_mark{
+	list-style: url(../img/autumn_16.png);
+}
+

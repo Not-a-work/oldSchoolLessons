@@ -1,0 +1,30 @@
+body{
+	color: white;
+}
+.fruits{
+	background-color: #ED9EAE;
+	width: 420px;
+	margin: 20px;
+}
+ol{
+	padding: 10px;
+	list-style: none;
+	counter-reset: li;
+}
+
+li:before{
+	counter-increment: li;
+	content: counters(li, ".")". ";
+	margin-left: 5px;
+}
+
+li{
+	margin: 10px;
+	
+	background-color: #C66376;
+}
+span{
+	background-color: #9E354A;
+	display: inline-block;
+	padding: 2px 15px;
+}

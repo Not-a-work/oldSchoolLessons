@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  max-width: 100%;
+  padding: 0 60px;
+}
+
+header {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-top: 45px;
+}
+.logo{
+		width: 100%;
+}
+.logo a{
+
+	text-decoration: none;
+	color: black;
+	font-weight: 500;
+	font-size: 1.25rem;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+header nav ul {
+  list-style: none;
+  display: flex;
+}
+.top-menu{
+	position: relative;
+	
+}
+.sub-menu{
+	position: absolute;
+	display: none;
+	color: black;
+	font-weight: 500;
+	font-size: 1rem;
+	line-height: 1.5;
+
+}
+.top-menu:hover .sub-menu{
+	display: block;
+}
+
+.sub-menu li a{
+	display: block;
+	transition: .3s;
+	font-size: 1rem;
+}
+.sub-menu li a:hover{
+	transform: translateX(5px);
+}
+header nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+header nav ul li a:hover {
+  opacity: 0.5;
+}
+
+header nav ul li:not(:last-child) {
+  margin-right: 30px;
+}
+header .info {
+  color: black;
+  margin-top: 200px;
+}
+header .info .info-title {
+  font-size: 1.5rem;
+  font-weight: 900;
+  font-family: "Oswald", sans-serif;
+  line-height: 100%;
+  text-align: center;
+}
+header .info .info-descr {
+  font-size: 3rem;
+  font-weight: 900;
+  font-family: "Oswald", sans-serif;
+  line-height: 100%;
+  text-align: center;
+}
